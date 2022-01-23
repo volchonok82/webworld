@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- не забыть отключить -->
+    <meta name="robots" content="none" />
+    <!-- описание страницы -->
+    <meta name="Description" content="описание страницы" />
+    <title>Portfolio</title>
+    <link rel="preload" as="image" href="img/top-bg.webp">
+    
+    
+    
+    
+       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css?_v=20220123231159" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"> 
+    
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:regular,600,700&display=swap&_v=20220123231159" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Pacifico:regular&_v=20220123231159" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.min.css?_v=20220123231159">   
+</head>
+
+<body>
+    <div class="_body-wrapper">
+        
+
+        <header class="header ">
+    <div class="header__container">
+        <div class="header__body">
+            <a href="index.html" class="header__logo _logo">
+                <span>Webworld</span>
+            </a>
+            <nav class="header__menu">
+                <ul class="header__items">
+                    <li class="header__item"><a href="index.html" class="header__link"><span>Home</span></a></li>
+                    <li class="header__item"><a href="inner.html" class="header__link"><span>Portfolio</span></a>
+                    </li>
+                    <li class="header__item"><a href="contact.html" class="header__link"><span>Contact</span></a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
+
+<div class="top-bg top-bg--contact"></div>
+
+
+        <main class="contact">
+
+            <div class="contact__top _main-top">
+                <h1 class="contact__main-title _main-title">Elegant Designs </h1>
+                <p class="contact__main-text _main-text">
+                    Loram lipsum
+                </p>
+            </div>
+
+            <!-- gogole map -->
+            <section class="contact__map" id="map">
+                <h2 class="visually-hidden">location on google map</h2>
+            </section>
+
+            <div class="contact__wrapper">
+                <div class="contact__container">
+
+                    <section class="contact__info info-contact">
+                        <div class="info-contact__top-deco _top-deco">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <h2 class="info-contact__title _title"><span>Our</span> Contact info</h2>
+
+                        <div class="info-contact__items">
+
+                            <article class="info-contact__item item-contact">
+                                <div class="item-contact__icon">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <h3 class="item-contact__title">Adress Details</h3>
+                                <ul class="item-contact__list">
+                                    <li>Address Line 1</li>
+                                    <li>Street details 2</li>
+                                    <li>More details 3</li>
+                                </ul>
+                            </article>
+
+                            <article class="info-contact__item item-contact">
+                                <div class="item-contact__icon">
+                                    <i class="fas fa-mobile-alt"></i>
+                                </div>
+                                <h3 class="item-contact__title">Telephone</h3>
+                                <ul class="item-contact__list">
+                                    <li><a href="tel:+xxxxxxxxxxxxx">+xxx- xxxxx-xxxxx</a></li>
+                                    <li><a href="tel:+xxxxxxxxxxxxx">+xxx- xxxxx-xxxxx</a></li>
+                                    <li><a href="tel:+xxxxxxxxxxxxx">+xxx- xxxxx-xxxxx</a></li>
+                                </ul>
+                            </article>
+
+                            <article class="info-contact__item item-contact">
+                                <div class="item-contact__icon">
+                                    <i class="far fa-calendar"></i>
+                                </div>
+                                <h3 class="item-contact__title">Working time</h3>
+                                <ul class="item-contact__list">
+                                    <li>
+                                        <p><span>Monday - Fri</span> — <span>08:00 - 16:00</span></p>
+                                    </li>
+                                    <li>
+                                        <p>Saturday — Closed</p>
+                                    </li>
+                                    <li>
+                                        <p>Sunday — Closed</p>
+                                    </li>
+                                </ul>
+                            </article>
+
+                            <article class="info-contact__item item-contact">
+                                <div class="item-contact__icon">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <h3 class="item-contact__title">Email Address</h3>
+                                <ul class="item-contact__list">
+                                    <li><a href="mailto:info@yoursite.com">info@yoursite.com </a></li>
+                                    <li> <a href="mailto:support@yoursite.com">support@yoursite.com </a></li>
+                                    <li> <a href="mailto:Admin@yoursite.com">Admin@yoursite.com </a></li>
+                                </ul>
+                            </article>
+
+                        </div>
+                    </section>
+
+                    <section class="contact__form form-contact">
+                        <div class="form-contact__top-deco _top-deco">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h2 class="form-contact__title _title"><span>Contact</span> Form</h2>
+
+                        <form action="#" class="form-contact__form main-form " id="main-form">
+
+                            <div class="main-form__inputs">
+                                <input type="text" name="user-name" class="main-form__user-name _req" placeholder="Name"
+                                    aria-label="input your name">
+                                <input type="email" name="user-email" class="main-form__user-emai _req"
+                                    placeholder="Email" aria-label="input your email">
+                            </div>
+
+                            <textarea class="main-form__message" name="user-message"
+                                placeholder="Your message"></textarea>
+
+                            <button type="submit" class="main-form__button">Send</button>
+                        </form>
+                    </section>
+                </div>
+            </div>
+        </main>
+
+
+        <footer class="footer">
+    <div class="footer__top top-footer">
+        <div class="top-footer__container">
+            <div data-spollers="575.98, max" class="top-footer__items">
+
+                <div class="top-footer__item">
+                    <a href="index.html" class="top-footer__logo _logo">
+                        <span>Webworld</span>
+                    </a>
+                    <p class="top-footer__text">
+                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                        alteration in some form, by injected humour, or randomised words which don't look even slightly
+                        believable. If you are going to use a passage of
+                    </p>
+                </div>
+
+                <div class="top-footer__item top-footer__item--spoller spoller">
+                    <button type="button" data-spoller class="spoller__title ">Contact</button>
+                    <div class="spoller__body">
+                        <p class="top-footer__text">
+                            There are many variations of passages of Lorem Ipsum available, but the majority have
+                            suffered alteration in so
+                        </p>
+                        <ul class="top-footer__links-list">
+                            <li><a href="#" class="top-footer__link">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <span>New Delhi</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="mailto:info@yourwebsite.com" class="top-footer__link">
+                                    <i class="fas fa-envelope"></i>
+                                    <span>info@yourwebsite.com</span>
+                                </a>
+                            </li>
+                            <li><a href="tel:+8900988045590" class="top-footer__link">
+                                    <i class="fas fa-phone-alt"></i>
+                                    <span>890-08880-45590</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="top-footer__item top-footer__item--spoller spoller">
+                    <button type="button" data-spoller class="spoller__title">Latest tweets</button>
+                    <div class="spoller__body">
+                        <div class="top-footer__tweet tweet-footer">
+                            <i class="fab fa-twitter tweet-footer__ico"></i>
+                            <div class="tweet-footer__body">
+                                <p class="tweet-footer__text">
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                    Ipsum has been the industry's standard dummy
+                                </p>
+                                <p class="tweet-footer__time"><span>1 Hour</span> Ago</p>
+                            </div>
+                        </div>
+
+                        <div class="top-footer__tweet tweet-footer">
+                            <i class="fab fa-twitter tweet-footer__ico"></i>
+                            <div class="tweet-footer__body">
+                                <p class="tweet-footer__text">
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting
+                                </p>
+                                <p class="tweet-footer__time"><span>1 Hour</span> Ago</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="top-footer__item top-footer__item--spoller spoller">
+                    <button type="button" data-spoller class="spoller__title">News Letter</button>
+                    <div class="spoller__body">
+                        <p class="top-footer__text">
+                            Type your email address below and recive our daily news letter for free
+                        </p>
+
+                        <form action="#" id="subscribe" class="top-footer__subscribe subscribe">
+                            <div class="subscribe__input" >
+                                <input type="email" aria-label="input subscribe email"
+                                    placeholder="Email Address" required data-error="error">
+                            </div>
+                            <button type="submit" class="subscribe__button">Go</button>
+                        </form>
+                        
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="footer__bottom bottom-footer">
+        <div class="bottom-footer__container">
+            <div class="bottom-footer__copy">
+                <p>
+                    © 2013 All rights reserved. Theme by <a
+                        href="https://cssauthor.com/free-corporate-web-design-template/" target="_blank"
+                        rel="noopener noreferrer">cssauthor.com</a>
+                </p>
+            </div>
+            <ul class="bottom-footer__social-list">
+                <li><a href="#" class="bottom-footer__social-link">
+                        <i class="fab fa-twitter tweet-footer__ico"></i>
+                        <span class="visually-hidden">tweeter link</span>
+                    </a>
+                </li>
+                <li><a href="#" class="bottom-footer__social-link">
+                        <i class="fab fa-facebook-f"></i>
+                        <span class="visually-hidden">facebook link</span>
+                    </a>
+                </li>
+                <li><a href="#" class="bottom-footer__social-link">
+                        <i class="fab fa-linkedin-in"></i>
+                        <span class="visually-hidden">linkedin link</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+</footer>
+    </div>
+
+    
+
+    
+
+
+<script src="https://maps.googleapis.com/maps/api/js?key=&_v=20220123231159"></script>
+
+
+<script src="./js/script.min.js?_v=20220123231159"></script>
+<!-- <script src="js/app.min.js?_v=20220123231159"></script> -->
+</body>
+
+</html>

@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- не забыть отключить -->
+    <meta name="robots" content="none" />
+    <!-- описание страницы -->
+    <meta name="Description" content="описание страницы" />
+    <title>index</title>
+    <link rel="preload" as="image" href="img/top-bg.webp">
+    
+    
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css?_v=20220123231159" />
+    
+    
+    
+       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css?_v=20220123231159" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"> 
+    
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:regular,600,700&display=swap&_v=20220123231159" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Pacifico:regular&_v=20220123231159" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.min.css?_v=20220123231159">   
+</head>
+
+<body>
+    <div class="_body-wrapper">
+        
+
+        <header class="header ">
+    <div class="header__container">
+        <div class="header__body">
+            <a href="index.html" class="header__logo _logo">
+                <span>Webworld</span>
+            </a>
+            <nav class="header__menu">
+                <ul class="header__items">
+                    <li class="header__item"><a href="index.html" class="header__link"><span>Home</span></a></li>
+                    <li class="header__item"><a href="inner.html" class="header__link"><span>Portfolio</span></a>
+                    </li>
+                    <li class="header__item"><a href="contact.html" class="header__link"><span>Contact</span></a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
+
+<div class="top-bg top-bg--home"></div>
+
+
+        <main>
+            <div class="slider">
+                <div class="slider__container">
+                    <div class="slider__body swiper">
+                        <div class="slider__wrapper swiper-wrapper">
+                            <div class="slider__slide swiper-slide">
+                                <div class="slider__content _main-top">
+                                    <p class="slider__title _main-title">
+                                        Clean, flat & polished design
+                                    </p>
+                                    <p class="slider__text _main-text">
+                                        Proin facilisis aliquam nunc quis varius.
+                                    </p>
+                                    <a href="#" class="slider__link _btn">Show more</a>
+                                </div>
+                            </div>
+                            <div class="slider__slide swiper-slide">
+                                <div class="slider__content _main-top">
+                                    <p class="slider__title _main-title">
+                                        Clean, flat & polished design
+                                    </p>
+                                    <p class="slider__text _main-text">
+                                        Proin facilisis aliquam nunc quis varius.
+                                    </p>
+                                    <a href="#" class="slider__link _btn">Show more</a>
+                                </div>
+                            </div>
+                            <div class="slider__slide swiper-slide">
+                                <div class="slider__content _main-top">
+                                    <p class="slider__title _main-title">
+                                        Clean, flat & polished design
+                                    </p>
+                                    <p class="slider__text _main-text">
+                                        Proin facilisis aliquam nunc quis varius.
+                                    </p>
+                                    <a href="#" class="slider__link">Show more</a>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Добавляем если нам нужны стрелки управления -->
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                        <!-- Добавляем если нам нужна пагинация -->
+                        <div class="swiper-pagination"></div>
+                    </div>
+
+
+                </div>
+            </div>
+
+            <section class="aboutus">
+                <h2 class="visually-hidden">About us</h2>
+                <div class="aboutus__container">
+                    <p class="aboutus__text">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the
+                        industry's standard dummy text ever since type specimen book !!
+                    </p>
+                    <div class="aboutus__items">
+                        <div class="aboutus__item item-aboutus">
+                            <div class="item-aboutus__image">
+                                <picture>
+                                    <source type="image/webp"
+                                        srcset="img/home/box01.webp 1x, img/home/box01@2x.webp 2x">
+                                    <img src="img/home/box01.jpg"
+                                        srcset="img/home/box01.jpg 1x, img/home/box01@2x.jpg 2x" alt="img1"
+                                        loading="lazy">
+                                </picture>
+                                <div class="item-aboutus__icon">
+                                    <i class="fas fa-camera"></i>
+                                </div>
+                            </div>
+                            <div class="item-aboutus__body">
+                                <p class="item-aboutus__title _sub-title">What We Are</p>
+                                <p class="item-aboutus__text">
+                                    Lorem Ipsum is simply dummy text
+                                    the printing and typesetting.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="aboutus__item item-aboutus">
+                            <div class="item-aboutus__image">
+                                <picture>
+                                    <source type="image/webp"
+                                        srcset="img/home/box02.webp 1x, img/home/box02@2x.webp 2x">
+                                    <img src="img/home/box02.jpg"
+                                        srcset="img/home/box02.jpg 1x, img/home/box02@2x.jpg 2x" alt="img2"
+                                        loading="lazy">
+                                </picture>
+                                <div class="item-aboutus__icon">
+                                    <i class="fas fa-edit"></i>
+                                </div>
+                            </div>
+                            <div class="item-aboutus__body">
+                                <p class="item-aboutus__title _sub-title">Start Our Project</p>
+                                <p class="item-aboutus__text">
+                                    Lorem Ipsum is simply dummy text
+                                    the printing and typesetting.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="aboutus__item item-aboutus">
+                            <div class="item-aboutus__image">
+                                <picture>
+                                    <source type="image/webp"
+                                        srcset="img/home/box03.webp 1x, img/home/box03@2x.webp 2x">
+                                    <img src="img/home/box03.jpg"
+                                        srcset="img/home/box03.jpg 1x, img/home/box03@2x.jpg 2x" alt="img3"
+                                        loading="lazy">
+                                </picture>
+                                <div class="item-aboutus__icon">
+                                    <i class="fas fa-shopping-cart"></i>
+                                </div>
+                            </div>
+                            <div class="item-aboutus__body">
+                                <p class="item-aboutus__title _sub-title">Our Team</p>
+                                <p class="item-aboutus__text">
+                                    Lorem Ipsum is simply dummy text
+                                    the printing and typesetting.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="features">
+                <div class="features__container">
+                    <div class="features__top-deco _top-deco">
+                        <i class="fas fa-check-circle"></i>
+                    </div>
+                    <h2 class="features__title _title"><span>Our</span> Features</h2>
+
+                    <div class="features__items">
+                        <div class="features__item item-features">
+                            <div class="item-features__images images-devices">
+                                <div class="images-devices__tablet">
+                                    <picture>
+                                        <source type="image/webp"
+                                            srcset="img/home/tablet-pic.webp 1x, img/home/tablet-pic@2x.webp 2x">
+                                        <img src="img/home/tablet-pic.jpg"
+                                            srcset="img/home/tablet-pic.jpg 1x, img/home/tablet-pic@2x.jpg 2x"
+                                            alt="tablet img" loading="lazy">
+                                    </picture>
+                                </div>
+                                <div class="images-devices__mobile">
+                                    <picture>
+                                        <source type="image/webp"
+                                            srcset="img/home/mobile-pic.webp 1x, img/home/mobile-pic@2x.webp 2x">
+                                        <img src="img/home/mobile-pic.jpg"
+                                            srcset="img/home/mobile-pic.jpg 1x, img/home/mobile-pic@2x.jpg 2x"
+                                            alt="mobile img" loading="lazy">
+                                    </picture>
+                                </div>
+                            </div>
+                            <div class="item-features__body">
+                                <h3 class="item-features__title _sub-title">Lorem Ipsum is simply !!</h3>
+                                <p class="item-features__text">
+                                    There are many variations of passages of Lorem Ipsum available, but the majority
+                                    have suffered alteration in some form, by injected humour, or randomised words which
+                                    don't look even slightly believable. If you are going to use a passage of Lorem
+                                    chunks as necessary, making this the first true generator on the Internet. It uses a
+                                    dictionary of over 200 Latin words,
+                                </p>
+                                <a href="#" class="item-features__link">Read more</a>
+                            </div>
+                        </div>
+
+                        <div class="features__item item-features">
+                            <div class="item-features__images images-camera">
+                                <div class="images-camera__small">
+                                    <picture>
+                                        <source type="image/webp"
+                                            srcset="img/home/camera-small.webp 1x, img/home/camera-small@2x.webp 2x">
+                                        <img src="img/home/camera-small.png"
+                                            srcset="img/home/camera-small.png 1x, img/home/camera-small@2x.png 2x"
+                                            alt="small camera ico" loading="lazy">
+                                    </picture>
+                                </div>
+                                <div class="images-camera__big">
+                                    <picture>
+                                        <source type="image/webp"
+                                            srcset="img/home/camera.webp 1x, img/home/camera@2x.webp 2x">
+                                        <img src="img/home/camera.png"
+                                            srcset="img/home/camera.png 1x, img/home/camera@2x.png 2x"
+                                            alt="camera ico" loading="lazy">
+                                    </picture>
+                                </div>
+                            </div>
+                            <div class="item-features__body">
+                                <h3 class="item-features__title _sub-title">A flat Camera</h3>
+                                <p class="item-features__text">
+                                    There are many variations of passages of Lorem Ipsum available, but the majority
+                                    have suffered alteration in some form, by injected humour, or randomised words which
+                                    don't look even slightly believable. If you are going to use a passage of Lorem
+                                    Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of
+                                    text. All the Lorem Ipsum generators.
+                                </p>
+                                <a href="#" class="item-features__link">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="projects">
+                <div class="projects__container">
+                    <div class="projects__top-deco _top-deco">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <h2 class="projects__title _title"><span>Our latest</span> Projects</h2>
+                    <p class="projects__text">
+                        Lorem Ipsum is simply dummy text the printing and typesetting.
+                    </p>
+                    <div class="projects__items">
+                        <div class="projects__item item-project">
+                            <div class="item-project__image">
+                                <a href="#" class="item-project__link">
+                                    <i class="fas fa-search"></i>
+                                    <picture>
+                                        <source type="image/webp"
+                                            srcset="img/home/project01.webp 1x, img/home/project01@2x.webp 2x">
+                                        <img src="img/home/project01.jpg"
+                                            srcset="img/home/project01.jpg 1x, img/home/project01@2x.jpg 2x"
+                                            alt="pic01">
+                                    </picture>
+                                </a>
+                            </div>
+                            <div class="item-project__text">
+                                <h3 class="item-project__name _sub-title"><a href="#">Lorem Ipsum</a> </h3>
+                                <span class="item-project__category">Photography</span>
+                            </div>
+                        </div>
+                        <div class="projects__item item-project">
+                            <div class="item-project__image">
+                                <a href="#" class="item-project__link">
+                                    <i class="fas fa-search"></i>
+                                    <picture>
+                                        <source type="image/webp"
+                                            srcset="img/home/project02.webp 1x, img/home/project02@2x.webp 2x">
+                                        <img src="img/home/project02.jpg"
+                                            srcset="img/home/project02.jpg 1x, img/home/project02@2x.jpg 2x"
+                                            alt="pic02">
+                                    </picture>
+                                </a>
+                            </div>
+                            <div class="item-project__text">
+                                <h3 class="item-project__name _sub-title"><a href="#">Bonorum et Malorum</a> </h3>
+                                <span class="item-project__category">Print Designing</span>
+                            </div>
+                        </div>
+                        <div class="projects__item item-project">
+                            <div class="item-project__image">
+                                <a href="#" class="item-project__link">
+                                    <i class="fas fa-search"></i>
+                                    <picture>
+                                        <source type="image/webp"
+                                            srcset="img/home/project03.webp 1x, img/home/project03@2x.webp 2x">
+                                        <img src="img/home/project03.jpg"
+                                            srcset="img/home/project03.jpg 1x, img/home/project03@2x.jpg 2x"
+                                            alt="pic03">
+                                    </picture>
+                                </a>
+                            </div>
+                            <div class="item-project__text">
+                                <h3 class="item-project__name _sub-title"><a href="#">Injected humour</a> </h3>
+                                <span class="item-project__category">E-marketing</span>
+                            </div>
+                        </div>
+                        <div class="projects__item item-project">
+                            <div class="item-project__image">
+                                <a href="#" class="item-project__link">
+                                    <i class="fas fa-search"></i>
+                                    <picture>
+                                        <source type="image/webp"
+                                            srcset="img/home/project04.webp 1x, img/home/project04@2x.webp 2x">
+                                        <img src="img/home/project04.jpg"
+                                            srcset="img/home/project04.jpg 1x, img/home/project04@2x.jpg 2x"
+                                            alt="pic04">
+                                    </picture>
+                                </a>
+                            </div>
+                            <div class="item-project__text">
+                                <h3 class="item-project__name _sub-title"><a href="#">Embarrassing</a> </h3>
+                                <span class="item-project__category">Best Marketplace</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="testimonials">
+                <div class="testimonials__container">
+                    <div class="testimonials__top-deco _top-deco">
+                        <i class="fas fa-comment-dots"></i>
+                    </div>
+                    <h2 class="testimonials__title _title"><span>client</span> Testimonials</h2>
+
+                    <div class="testimonials__slider slider-testim">
+                        <div class="slider-testim__wrapper swiper-wrapper">
+                            <div class="slider-testim__slide swiper-slide">
+                                <div class="slider-testim__body">
+                                    <p class="slider-testim__text">
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                        Ipsum has been the industry's standard dummy text ever since type specimen book
+                                        !!
+                                    </p>
+                                    <div class="slider-testim__deco"></div>
+                                    <p class="slider-testim__client">Client Name01<span class="slider-testim__company">,
+                                            Company Name</span></p>
+                                </div>
+                            </div>
+                            <div class="slider-testim__slide swiper-slide">
+                                <div class="slider-testim__body">
+                                    <p class="slider-testim__text">
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                        Ipsum has been the industry's standard dummy text ever since type specimen book
+                                        !!
+                                    </p>
+                                    <div class="slider-testim__deco"></div>
+                                    <p class="slider-testim__client">Client Name02<span class="slider-testim__company">,
+                                            Company Name</span></p>
+                                </div>
+                            </div>
+                            <div class="slider-testim__slide swiper-slide">
+                                <div class="slider-testim__body">
+                                    <p class="slider-testim__text">
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                        Ipsum has been the industry's standard dummy text ever since type specimen book
+                                        !!
+                                    </p>
+                                    <div class="slider-testim__deco"></div>
+                                    <p class="slider-testim__client">Client Name03<span class="slider-testim__company">,
+                                            Company Name</span></p>
+                                </div>
+                            </div>
+                            <div class="slider-testim__slide swiper-slide">
+                                <div class="slider-testim__body">
+                                    <p class="slider-testim__text">
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                        Ipsum has been the industry's standard dummy text ever since type specimen book
+                                        !!
+                                    </p>
+                                    <div class="slider-testim__deco"></div>
+                                    <p class="slider-testim__client">Client Name04<span class="slider-testim__company">,
+                                            Company Name</span></p>
+                                </div>
+                            </div>
+                            <div class="slider-testim__slide swiper-slide">
+                                <div class="slider-testim__body">
+                                    <p class="slider-testim__text">
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                        Ipsum has been the industry's standard dummy text ever since type specimen book
+                                        !!
+                                    </p>
+                                    <div class="slider-testim__deco"></div>
+                                    <p class="slider-testim__client">Client Name05<span class="slider-testim__company">,
+                                            Company Name</span></p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+
+        <footer class="footer">
+    <div class="footer__top top-footer">
+        <div class="top-footer__container">
+            <div data-spollers="575.98, max" class="top-footer__items">
+
+                <div class="top-footer__item">
+                    <a href="index.html" class="top-footer__logo _logo">
+                        <span>Webworld</span>
+                    </a>
+                    <p class="top-footer__text">
+                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                        alteration in some form, by injected humour, or randomised words which don't look even slightly
+                        believable. If you are going to use a passage of
+                    </p>
+                </div>
+
+                <div class="top-footer__item top-footer__item--spoller spoller">
+                    <button type="button" data-spoller class="spoller__title ">Contact</button>
+                    <div class="spoller__body">
+                        <p class="top-footer__text">
+                            There are many variations of passages of Lorem Ipsum available, but the majority have
+                            suffered alteration in so
+                        </p>
+                        <ul class="top-footer__links-list">
+                            <li><a href="#" class="top-footer__link">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <span>New Delhi</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="mailto:info@yourwebsite.com" class="top-footer__link">
+                                    <i class="fas fa-envelope"></i>
+                                    <span>info@yourwebsite.com</span>
+                                </a>
+                            </li>
+                            <li><a href="tel:+8900988045590" class="top-footer__link">
+                                    <i class="fas fa-phone-alt"></i>
+                                    <span>890-08880-45590</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="top-footer__item top-footer__item--spoller spoller">
+                    <button type="button" data-spoller class="spoller__title">Latest tweets</button>
+                    <div class="spoller__body">
+                        <div class="top-footer__tweet tweet-footer">
+                            <i class="fab fa-twitter tweet-footer__ico"></i>
+                            <div class="tweet-footer__body">
+                                <p class="tweet-footer__text">
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                    Ipsum has been the industry's standard dummy
+                                </p>
+                                <p class="tweet-footer__time"><span>1 Hour</span> Ago</p>
+                            </div>
+                        </div>
+
+                        <div class="top-footer__tweet tweet-footer">
+                            <i class="fab fa-twitter tweet-footer__ico"></i>
+                            <div class="tweet-footer__body">
+                                <p class="tweet-footer__text">
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting
+                                </p>
+                                <p class="tweet-footer__time"><span>1 Hour</span> Ago</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="top-footer__item top-footer__item--spoller spoller">
+                    <button type="button" data-spoller class="spoller__title">News Letter</button>
+                    <div class="spoller__body">
+                        <p class="top-footer__text">
+                            Type your email address below and recive our daily news letter for free
+                        </p>
+
+                        <form action="#" id="subscribe" class="top-footer__subscribe subscribe">
+                            <div class="subscribe__input" >
+                                <input type="email" aria-label="input subscribe email"
+                                    placeholder="Email Address" required data-error="error">
+                            </div>
+                            <button type="submit" class="subscribe__button">Go</button>
+                        </form>
+                        
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="footer__bottom bottom-footer">
+        <div class="bottom-footer__container">
+            <div class="bottom-footer__copy">
+                <p>
+                    © 2013 All rights reserved. Theme by <a
+                        href="https://cssauthor.com/free-corporate-web-design-template/" target="_blank"
+                        rel="noopener noreferrer">cssauthor.com</a>
+                </p>
+            </div>
+            <ul class="bottom-footer__social-list">
+                <li><a href="#" class="bottom-footer__social-link">
+                        <i class="fab fa-twitter tweet-footer__ico"></i>
+                        <span class="visually-hidden">tweeter link</span>
+                    </a>
+                </li>
+                <li><a href="#" class="bottom-footer__social-link">
+                        <i class="fab fa-facebook-f"></i>
+                        <span class="visually-hidden">facebook link</span>
+                    </a>
+                </li>
+                <li><a href="#" class="bottom-footer__social-link">
+                        <i class="fab fa-linkedin-in"></i>
+                        <span class="visually-hidden">linkedin link</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+</footer>
+    </div>
+
+    
+
+    
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js?_v=20220123231159"></script>
+
+
+
+
+<script src="./js/script.min.js?_v=20220123231159"></script>
+<!-- <script src="js/app.min.js?_v=20220123231159"></script> -->
+</body>
+
+</html>
